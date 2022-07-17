@@ -1,0 +1,15 @@
+#countries{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.country-details{
+    text-align: center;
+}
+.country{
+    background-color: rgb(225, 243, 243);
+    border: 2px solid rgb(230, 47, 187);
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
